@@ -53,6 +53,8 @@
             document.getElementById('searchResult2').innerHTML = result2;
         }
         var keyword = (new URLSearchParams(window.location.search)).get('keyword');
+        console.log(keyword);
+        console.log(window.location.search);
         if(keyword) {
             searchKeywordPrint(keyword);
         }

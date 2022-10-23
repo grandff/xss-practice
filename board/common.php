@@ -7,10 +7,10 @@
 	function mysql_conn() {
 		$host = "127.0.0.1";
 		$id = "root";
-		$pw = "crehacktive";
+		//$pw = "crehacktive";
 		$db = "pentest";
 	
-		$db_conn = new mysqli($host, $id, $pw, $db);
+		$db_conn = new mysqli($host, $id, "", $db);
 
 		return $db_conn;
 	}

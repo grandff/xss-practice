@@ -23,3 +23,9 @@ innerHTML은 script는 실행 안되게 되어있으나 다른 html 태그등을
 ```
 
 > 위 코드를 통해 alert 실행 가능
+
+4. REFLECTED XSS 공격원리분석 및 실습
+서버 측에서 사용자 입력 값을 통한 동적 페이지 구성
+/xss/example2.php 접속해서 실습
+
+동적으로 처리하기 때문에 script 태그가 먹힘
